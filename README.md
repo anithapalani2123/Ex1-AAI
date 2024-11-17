@@ -37,7 +37,7 @@ Generate the graph using networkx<br/>
 Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-
+```
 import pandas as pd # for data manipulation
 import networkx as nx # for drawing graphs
 import matplotlib.pyplot as plt # for drawing graphs
@@ -127,7 +127,7 @@ ax = plt.gca()
 ax.margins(0.10)
 plt.axis("off")
 plt.show()
-
+```
 ## Output:
 ![image](https://github.com/user-attachments/assets/a6a5fc33-c9b6-42ac-8b09-150fb4a1734e)
 ![image](https://github.com/user-attachments/assets/8addabca-ee14-48d9-ab62-2aab12d70686)
